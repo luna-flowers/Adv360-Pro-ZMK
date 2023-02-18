@@ -77,13 +77,13 @@
             >;
         };
 
-        layer_gaming {
+        layer_HOI4 {
             bindings = <
-  &trans      &trans  &trans  &trans  &trans  &trans                      &trans                                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &kp TAB     &kp TAB   &kp Q   &kp W   &kp E   &kp R                      &trans                                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &kp ESC  &kp LSHIFT   &kp A   &kp S   &kp D   &kp F                       &kp G     &trans  &kp LEFT_ALT                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans      &trans  &trans  &trans   &kp C   &kp H                      &trans     &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans      &trans  &trans  &trans  &trans                    &kp LEFT_CONTROL  &kp SPACE     &kp ENTER                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans   &kp Y   &kp U   &kp I   &kp O   &kp P            &trans     &trans     &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp F1  &kp F2  &kp F3  &trans  &trans            &trans     &trans   &kp PLUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &kp SPACE  &kp MINUS                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
