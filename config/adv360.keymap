@@ -79,11 +79,11 @@
 
         layer_HOI4 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans   &kp Y   &kp U   &kp I   &kp O   &kp P            &trans     &trans     &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp F1  &kp F2  &kp F3  &trans  &trans            &trans     &trans   &kp PLUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &kp SPACE  &kp MINUS                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &kp F1  &kp F2  &kp F3  &trans  &trans            &trans                                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans   &kp Y   &kp U   &kp I   &kp O   &kp P            &trans     &trans        &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans     &trans   &kp KP_PLUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &kp SPACE  &kp KP_MINUS                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
