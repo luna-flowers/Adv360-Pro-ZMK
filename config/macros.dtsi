@@ -18,7 +18,6 @@ macro_gaming_chat: macro_gaming_chat {
   ; 
 };
 
-// buitlin
 macro_launcher: macro_launcher{
   compatible = "zmk,behavior-macro";
   label = "macro_launcher";
@@ -30,6 +29,7 @@ macro_launcher: macro_launcher{
   ;
 };
 
+// built-in macros
 macro_quotes: macro_quotes{
   compatible = "zmk,behavior-macro";
   label = "macro_quotes";
