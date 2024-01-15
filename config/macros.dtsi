@@ -14,7 +14,7 @@ macro_gaming_chat: macro_gaming_chat {
   label = "macro_gaming_chat";
   #binding-cells = <0>;
   bindings 
-    = <&macro_press &kp RETURN &to 0>
+    = <&macro_tap &kp RETURN &to 0>
   ; 
 };
 

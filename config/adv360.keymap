@@ -98,7 +98,7 @@
 
 	      layer_gaming {
             bindings = <
- &trans  &trans      &trans  &trans  &trans  &trans        &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &to 0   &trans      &trans  &trans  &trans  &trans        &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &kp TAB     &kp Q   &kp W   &kp E   &kp R         &kp T                                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &kp LSHIFT  &kp A   &kp S   &kp D   &kp F         &kp G      &trans     &trans                  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &kp LCTRL   &kp Z   &kp X   &kp C   &kp V         &trans     &trans     &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
