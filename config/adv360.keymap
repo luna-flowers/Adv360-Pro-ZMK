@@ -36,7 +36,7 @@
         compatible = "zmk,behavior-hold-tap";
         label = "HOLD_TAP";
         #binding-cells = <2>;
-        tapping-term-ms = <150>;
+        tapping-term-ms = <100>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
@@ -48,11 +48,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                 &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T              &tog 4                                                                 &tog 5 &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G        &macro_heart  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B               &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+ &kp EQUAL      &kp N1     &kp N2    &kp N3     &kp N4    &kp N5              &tog 1                                                                        &mo 3              &kp N6  &kp N7  &kp N8    &kp N9    &kp N0   &kp MINUS
+ &kp TAB        &kp Q      &kp W     &kp E      &kp R     &kp T               &tog 5                                                                        &tog 4             &kp Y   &kp U   &kp I     &kp O     &kp P    &kp BSLH
+ &kp ESC        &kp A      &kp S     &kp D      &kp F     &kp G               &macro_heart       &kp LCTRL   &kp LALT                  &kp LGUI   &kp RCTRL &none              &kp H   &kp J   &kp K     &kp L     &kp SEMI &kp SQT
+ &kp LSHFT      &kp Z      &kp X     &kp C      &kp V     &kp B               &none              &none       &kp HOME   &none  &none   &kp PG_UP      &none &none              &kp N   &kp M   &kp COMMA &kp DOT   &kp FSLH &kp RSHFT
+ &mo 2          &kp GRAVE  &kp CAPS  &kp LEFT   &kp RIGHT                     &kp BSPC           &kp DEL     &kp END                   &kp PG_DN  &kp ENTER &kp SPACE                  &kp UP  &kp DOWN  &kp LBKT  &kp RBKT &mo 2
             >;
         };
 
@@ -96,14 +96,14 @@
             >;
         };
 
-	layer_gaming {
+	      layer_gaming {
             bindings = <
- &trans  &trans      &trans  &trans  &trans  &trans        &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp TAB     &kp Q   &kp W   &kp E   &kp R         &kp T                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp LSHIFT  &kp A   &kp S   &kp D   &kp F         &kp G      &trans     &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp LCTRL   &kp Z   &kp X   &kp C   &kp V         &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans      &trans  &trans  &trans                &kp LCTRL  &kp SPACE  &kp B                   &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
- 	    >;	
-	};
+ &trans  &trans      &trans  &trans  &trans  &trans        &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &to 0   &kp TAB     &kp Q   &kp W   &kp E   &kp R         &kp T                                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp LSHIFT  &kp A   &kp S   &kp D   &kp F         &kp G      &trans     &trans                  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp LCTRL   &kp Z   &kp X   &kp C   &kp V         &trans     &trans     &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans      &trans  &trans  &trans                &kp LCTRL  &kp SPACE  &kp B                   &trans  &macro_gaming_chat  &to 0           &trans  &trans  &trans  &trans  &trans
+       	    >;	
+      	};
     };
 };
