@@ -14,7 +14,25 @@ macro_gaming_chat: macro_gaming_chat {
   label = "macro_gaming_chat";
   #binding-cells = <0>;
   bindings 
-    = <&macro_tap &kp RETURN &to 0>
+    = <&macro_tap &kp RETURN &to 6>
+  ; 
+
+};
+macro_gaming_chat_disable: macro_gaming_chat_disable {
+  compatible = "zmk,behavior-macro";
+  label = "macro_gaming_chat_disable";
+  #binding-cells = <0>;
+  bindings 
+    = <&macro_tap &kp RETURN &to 5>
+  ; 
+};
+
+macro_gaming_chat_esc: macro_gaming_chat_esc {
+  compatible = "zmk,behavior-macro";
+  label = "macro_gaming_chat_esc";
+  #binding-cells = <0>;
+  bindings 
+    = <&macro_tap &kp ESC &to 5>
   ; 
 };
 
