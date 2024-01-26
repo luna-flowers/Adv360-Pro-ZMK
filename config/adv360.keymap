@@ -131,8 +131,8 @@
 
         layer_gaming_chat {
             bindings = <
- &trans                   &trans  &trans  &trans  &trans  &trans             &none                                                                             &none        &trans  &trans  &trans   &trans   &trans   &trans
- &to 0                    &trans  &trans  &trans  &trans  &trans             &to 5                                                                             &none        &trans  &trans  &trans   &trans   &trans   &trans
+ &to 0                    &trans  &trans  &trans  &trans  &trans             &none                                                                             &none        &trans  &trans  &trans   &trans   &trans   &trans
+ &trans                   &trans  &trans  &trans  &trans  &trans             &to 5                                                                             &none        &trans  &trans  &trans   &trans   &trans   &trans
  &macro_gaming_chat_esc   &trans  &trans  &trans  &trans  &trans             &macro_heart  &trans  &trans                  &trans  &trans                      &none        &trans  &trans  &trans   &trans   &trans   &trans
  &trans                   &trans  &trans  &trans  &trans  &trans                                   &trans                  &trans   	                                      &trans  &trans  &trans   &trans   &trans   &trans
  &trans                   &trans  &trans  &trans  &trans                     &trans        &trans  &trans                  &trans  &macro_gaming_chat_disable  &trans               &trans  &trans   &trans   &trans   &trans
