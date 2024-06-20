@@ -67,8 +67,14 @@
 
     combo_media_play_pause {
         timeout-ms = <50>;
-        key-positions = <32 67>;
+        key-positions = <36 67>;
         bindings = <&kp C_PP>;
+    };
+
+    combo_f13 {
+        timeout-ms = <70>;
+        key-positions = <36 52>;
+        bindings = <&kp F13>;
     };
   };
 
