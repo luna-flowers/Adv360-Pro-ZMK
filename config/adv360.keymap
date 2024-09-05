@@ -13,6 +13,7 @@
  */
 
 #include <behaviors.dtsi>
+#include <behaviors/non_overlap.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
@@ -134,11 +135,11 @@
 
 	      layer_gaming {
             bindings = <
- &trans  &trans      &trans  &trans  &trans  &trans        &kp T                                                                     &trans       &trans   &trans  &trans  &trans  &trans  &trans
- &trans  &kp TAB     &kp Q   &kp W   &kp E   &kp R         &to 0                                                                     &trans       &trans   &trans  &trans  &trans  &trans  &trans
- &trans  &kp LSHIFT  &kp A   &kp S   &kp D   &kp F         &kp G      &trans     &trans                  &trans  &trans              &trans       &trans   &trans  &trans  &trans  &trans  &trans
- &trans  &kp LCTRL   &kp Z   &kp X   &kp C   &kp V        			                 &trans  	               &trans  			                            &trans   &trans  &trans  &trans  &trans  &trans
- &trans  &trans      &trans  &trans  &trans                &kp LCTRL  &kp SPACE  &kp B                   &trans  &macro_gaming_chat  &trans                &trans  &trans  &trans  &trans  &trans
+ &trans  &trans      &trans   &trans  &trans  &trans        &kp T                                                           &trans         &trans    &trans  &trans  &trans  &trans  &trans
+ &trans  &kp TAB     &kp Q    &kp W   &kp E   &kp R         &to 0                                                           &trans         &trans    &trans  &trans  &trans  &trans  &trans
+ &trans  &kp LSHIFT  &nkp A   &kp S   &nkp D  &kp F         &kp G      &trans     &trans        &trans  &trans              &trans         &trans    &trans  &trans  &trans  &trans  &trans
+ &trans  &kp LCTRL   &kp Z    &kp X   &kp C   &kp V        			                  &trans  	    &trans  			                             &trans    &trans  &trans  &trans  &trans  &trans
+ &trans  &trans      &trans   &trans  &trans                &kp LCTRL  &kp SPACE  &kp B         &trans  &macro_gaming_chat  &trans                   &trans  &trans  &trans  &trans  &trans
        	    >;	
       	};
 

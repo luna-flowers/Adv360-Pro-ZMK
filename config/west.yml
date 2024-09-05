@@ -4,10 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: refil
       url-base: https://github.com/refil
+    - name: luna-flowers
+      url-base: https://github.com/luna-flowers
   projects:
     - name: zmk
       remote: refil
       revision: adv360-z3.5
       import: app/west.yml
+    - name: zmk-behavior-non-overlap
+      remote: luna-flowers
+      revision: main
   self:
     path: config
