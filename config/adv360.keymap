@@ -51,7 +51,7 @@
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&to 5>, <&to 4>;
-        mods = <MOD_LCTL>;
+        mods = <MOD_LSFT>;
     };
   };
 
@@ -124,11 +124,11 @@
 
         layer_PDX {
             bindings = <
- &trans  &ht NUMBER_1 F1    &ht NUMBER_2 F2     &ht NUMBER_3 F3   &ht NUMBER_4 F4   &ht NUMBER_5 F5             &trans                                                          &trans          &ht NUMBER_6 F6   &ht NUMBER_7 F7   &ht NUMBER_8 F8   &ht NUMBER_9 F9   &ht NUMBER_0 F10    &trans
- &trans  &trans             &trans              &trans            &trans            &trans                      &to 0                                                           &to 0           &trans            &trans            &trans            &trans            &trans              &trans
- &trans  &trans             &trans              &trans            &trans            &trans                      &trans     &trans       &trans                  &trans  &trans  &trans          &trans            &trans            &trans            &trans            &trans              &trans
- &trans  &trans             &trans              &trans            &trans            &trans                      			                  &kp KP_PLUS  	          &trans  	  	                  &trans            &trans            &trans            &trans            &trans              &trans
- &trans  &trans             &trans              &trans            &trans                                        &kp LCTRL  &kp SPACE    &kp KP_MINUS            &trans  &trans  &trans                            &trans            &trans            &trans            &trans              &trans
+ &trans  &ht NUMBER_1 F1    &ht NUMBER_2 F2     &ht NUMBER_3 F3   &ht NUMBER_4 F4   &ht NUMBER_5 F5             &trans                                                          &trans            &ht NUMBER_6 F6   &ht NUMBER_7 F7   &ht NUMBER_8 F8   &ht NUMBER_9 F9   &ht NUMBER_0 F10    &trans
+ &trans  &trans             &trans              &trans            &trans            &trans                      &to 0                                                           &to 0             &trans            &trans            &trans            &trans            &trans              &trans
+ &trans  &trans             &trans              &trans            &trans            &trans                      &trans      &trans       &trans                 &trans  &trans  &trans            &trans            &trans            &trans            &trans            &trans              &trans
+ &trans  &trans             &trans              &trans            &trans            &trans                      			                   &kp KP_PLUS  	        &trans  	  	                    &trans            &trans            &trans            &trans            &trans              &trans
+ &trans  &trans             &trans              &trans            &trans                                        &kp ENTER   &kp SPACE    &kp KP_MINUS           &trans  &trans  &trans                              &trans            &trans            &trans            &trans              &trans
             >;
         };
 
