@@ -191,11 +191,11 @@
 
         layer_gaming_chat {
             bindings = <
-&to 0                   &trans  &trans  &trans  &trans  &trans  &none                                                               &none   &trans  &trans  &trans  &trans  &trans  &trans
-&trans                  &trans  &trans  &trans  &trans  &trans  &to 5                                                               &none   &trans  &trans  &trans  &trans  &trans  &trans
-&macro_gaming_chat_esc  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &kp ENTER                   &none   &trans  &trans  &trans  &trans  &trans  &trans
-&trans                  &trans  &trans  &trans  &trans  &trans                  &trans          &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans                  &trans  &trans  &trans  &trans          &trans  &trans  &kp K_MENU      &trans  &macro_gaming_chat_disable  &trans          &trans  &trans  &trans  &trans  &trans
+&to 0                   &trans  &trans  &trans  &trans  &trans  &none                                                              &none   &trans  &trans  &trans  &trans  &trans  &trans
+&trans                  &trans  &trans  &trans  &trans  &trans  &to 5                                                              &none   &trans  &trans  &trans  &trans  &trans  &trans
+&macro_gaming_chat_esc  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans  &kp ENTER                   &none   &trans  &trans  &trans  &trans  &trans  &trans
+&trans                  &trans  &trans  &trans  &trans  &trans                  &trans         &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans                  &trans  &trans  &trans  &trans          &trans  &trans  &kp LA(G)      &trans  &macro_gaming_chat_disable  &trans          &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "Gaming Chat";
